@@ -4,6 +4,7 @@ using CamKoob.Customers.Infra.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CamKoob.Customers.Infra.Migrations
 {
     [DbContext(typeof(CustomersContext))]
-    partial class CustomersContextModelSnapshot : ModelSnapshot
+    [Migration("20250503124332_AddColumn_CreatedAt")]
+    partial class AddColumn_CreatedAt
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
