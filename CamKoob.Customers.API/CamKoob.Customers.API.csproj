@@ -16,6 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="../CamKoob.Customers.Application/CamKoob.Customers.Application.csproj" />
     <ProjectReference Include="../CamKoob.Customers.IoC/CamKoob.Customers.IoC.csproj" />
   </ItemGroup>
 
