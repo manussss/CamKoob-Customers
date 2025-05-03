@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CamKoob.Customers.Applicati
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CamKoob.Customers.Infra", "CamKoob.Customers.Infra\CamKoob.Customers.Infra.csproj", "{75017182-E65D-491A-A358-10CDB801D3FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CamKoob.Customers.API", "CamKoob.Customers.API\CamKoob.Customers.API.csproj", "{F891BB0A-3705-4438-82B3-15A7ECD13EEB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{75017182-E65D-491A-A358-10CDB801D3FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75017182-E65D-491A-A358-10CDB801D3FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75017182-E65D-491A-A358-10CDB801D3FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F891BB0A-3705-4438-82B3-15A7ECD13EEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F891BB0A-3705-4438-82B3-15A7ECD13EEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F891BB0A-3705-4438-82B3-15A7ECD13EEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F891BB0A-3705-4438-82B3-15A7ECD13EEB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
