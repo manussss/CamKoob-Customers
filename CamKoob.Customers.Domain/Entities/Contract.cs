@@ -1,9 +1,16 @@
 namespace CamKoob.Customers.Domain.Entities;
 
-public class Contract
+public class Contract : Entity
 {
-    public Guid Id { get; set; }
-    public EProduct Product { get; set; }
-    public Guid CustomerId { get; set; }
-    public Customer? Customer { get; set; }
+    public EProduct Product { get; private set; }
+    public Guid CustomerId { get; private set; }
+    public Customer? Customer { get; private set; }
+
+    protected Contract() { }
+
+    public Contract(EProduct product, Guid customerId)
+    {
+        Product = product;
+        CustomerId = customerId;
+    }
 }
